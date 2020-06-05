@@ -2,12 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/Users/sooraj/Documents /Coding/CodeCamp projects/Survey Form/style.css" />
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
   </head>
 
   <body id="main">
@@ -25,14 +22,14 @@
         id="name"
         name="name"
         value="Enter your name"
-      /><br /><br />
+      /><br>
       <label for="email">Email</label><br />
       <input
         type="email"
         id="email"
         name="email"
         value="Enter your email"
-      /><br /><br />
+      /><br>
       <label for="age">Age (optional)</label><br />
       <input
         type="number"
@@ -40,7 +37,7 @@
         name="age"
         min=1
         max=100
-      /><br /><br />
+      /><br>
       <label for="current_role"
         >Which option best describes your current role?</label
       ><br />
@@ -55,24 +52,20 @@
         <option value="Prefer_not">Prefer not to say</option>
         <option value="other">Other</option>
       </select>
-
-      <br /><br />
+        <br>
       <p>Would you recommend freeCodeCamp to a friend?</p>
       <input type="radio" id="recommendation" name="recommendation"
       value="Definitely">
       <label for="Definitely"
-        >Definitely</label
-      <br /><br />
+        >Definitely</label><br>
       <input type="radio" id="recommendation" name="recommendation"
       value="Maybe">
       <label for="Maybe"
-        >Maybe</label
-      <br /><br />
+        >Maybe</label><br>
       <input type="radio" id="recommendation" name="recommendation"
       value="Not_sure">
       <label for="Not_sure"
-        >Not Sure</label
-      <br /><br />
+        >Not Sure</label><br>
 
       <p>What is your favorite feature of freeCodeCamp?</p>
       <select
@@ -107,7 +100,7 @@
         name="comments"
         value="Enter your comments here..."
       /><br /><br />
-      <input type="submit" value="Submit">
+      <input id="submit" type="submit" value="Submit">
     </form>
   </body>
 </html>

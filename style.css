@@ -1,0 +1,61 @@
+#main {
+  text-align: center;
+  font-family: Roboto Mono;
+  font-weight: 500;
+  background-color: #000;
+}
+#head {
+  color: #fff;
+}
+
+#name {
+  border-radius: 8px;
+  padding: 4px;
+  border-width: 0px;
+}
+
+#email {
+  border-radius: 8px;
+  padding: 4px;
+  border-width: 0px;
+}
+
+#age {
+  border-radius: 8px;
+  padding: 4px;
+  border-width: 0px;
+}
+#current_role {
+  border-radius: 8px;
+  padding: 4px;
+  border-width: 0px;
+}
+#survey-form {
+  text-align: left;
+  border-radius: 30px;
+  background-color: #caebf2;
+  width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  line-height: 30px;
+}
+
+#fav_feature {
+  border-radius: 8px;
+  padding: 4px;
+  border-width: 0px;
+}
+
+#comments {
+  border-radius: 8px;
+  padding: 3px;
+  border-width: 0px;
+  width: 190px;
+}
+
+#submit {
+  border-radius: 8px;
+  padding: 4px;
+  border-width: 0px;
+}
